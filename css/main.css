@@ -1,26 +1,115 @@
 *{
+  padding: 0;
+  margin:0;
   box-sizing: border-box; /*Para que se vea bien en todos los navegadores*/
   font-family: 'Source Sans Pro', sans-serif;
+  align-items: center;
 }
 
-.main {
-  padding: 10px 0;
+body {
+  display: block;
+  margin: 8px;
+}
+header {
+  position: fixed;
+  height: auto;
+  background-color: #fff;
   width: 100%;
-  margin: 0;
-  border-bottom: 1px solid #d3d3d3;
+  align-items: center;
+  top: 0;
+
 }
 
-.fa-circle {
-  margin-right: 20px;
-  font-size: 50px;
-  
+nav {
+  position: fixed;
+  height: auto;
+  background-color: #fff;
+  width: 100%;
+  top: 70px;
+  align-items: center;
+
+}
+ul {
+  list-style: none;
+
+}
+header ul li .logo-pinterest, .input, .usuario {
+  display: inline-block;
+  float: left;
+}
+
+.logo-pinterest {
+  /*outline: 1px solid blue;*/
+  margin-right: 200px;
+  margin-left: 200px;
+  display: inline-block;
+  float: left;
+  color: yellow;
 }
 .fa-pinterest {
-  margin-right: 20
-  font-size: 50px;
-
+  color: rgb(189,8,28);
+  font-size: 40px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.input {
+  margin-right: 100px;
+  margin-left: 100px;
+  outline: 1px solid red;
+  background-color: rgb(239,239,239);
+  border-radius: 8px;
+  padding: 10px 20px;
+  display: inline-block;
+  border: 0;
+  width: 70%;
+  height: 50px;
+  align-items: center;
+  float: left;
+  margin-top: 20px;
 }
 
+/*div.translator-box {
+  outline: 1px solid red;
+  display: inline;
+  float: left;
+}
+*/
+.pins, .phrase, .icon-down {
+  float: left;
+  display: inline-block;
+  margin-top: 50px;
+}
+input {
+  background-color:rgb(239,239,239);
+  border-radius: 6px;
+  padding: 10px 20px;
+  display: inline-block;
+  border: 0;
+  width: 70%;
+  height: 40px;
+  align: center;
+  margin-top: -5px;
+  font-size: 20px;
+}
+
+.usuario {
+
+  float: left;
+  font-size: 20px;
+  color: #d3d3d3;
+}
+
+.fa-user, .fa-bars, .fa-commenting {
+  color: rgb(181,181,181);
+  display: inline-block;
+  margin-left: 20px;
+  float: left;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  font-size: 20px;
+  margin-top: 30px;
+}
 
 button {
   padding: 20px 25px;
@@ -29,8 +118,47 @@ button {
   /*font-weight: 600px;*/
   float: left;
   margin: 6px;
+
 }
 
-ul {
-  outline: 1px solid red;
+ul .sub-main {
+  display: inline-block;
+
 }
+
+.bottom1, .bottom4, .bottom7, .bottom9 {
+  outline: 1px soli green;
+  color: rgb(173,127,117);
+}
+
+section .img-body ul li  {
+  outline: 1px solid blue;
+}
+
+.pics {
+  margin-right: 200px;
+  margin-left: 200px;
+  outline: 1px solid blue;
+}
+
+
+
+
+/*
+.img-body{
+  margin-top: 100px;
+  display: inline-block;
+
+/*.pics img{
+  width: 200px;
+  height: auto;
+  float: left;
+}
+
+l
+
+.img-body {
+
+  float: left;
+}
+*/
