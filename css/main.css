@@ -54,8 +54,7 @@ header ul li .logo-pinterest, .input, .usuario {
   margin-top: 30px;
 }
 .input {
-  margin-right: 100px;
-  margin-left: 100px;
+
   outline: 1px solid red;
   background-color: rgb(239,239,239);
   border-radius: 8px;
@@ -135,11 +134,27 @@ section .img-body ul li  {
   outline: 1px solid blue;
 }
 
-.pics {
+
+
+main {
+  display: inline-block;
+  outline: 1px solid green;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.pic {
+  width: 300px;
+  height: auto;
+  margin: 30px;
+  border-radius: 8px;
+
+}
+/*.pics {
   margin-right: 200px;
   margin-left: 200px;
   outline: 1px solid blue;
-}
+}*/
 
 
 
