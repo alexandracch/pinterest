@@ -40,8 +40,8 @@ header ul li .logo-pinterest, .input, .usuario {
 
 .logo-pinterest {
   /*outline: 1px solid blue;*/
-  margin-right: 200px;
-  margin-left: 200px;
+  margin-right: 50px;
+  margin-left: 100px;
   display: inline-block;
   float: left;
   color: yellow;
@@ -53,27 +53,24 @@ header ul li .logo-pinterest, .input, .usuario {
   margin-left: 20px;
   margin-top: 30px;
 }
-.input {
 
-  outline: 1px solid red;
+li .input {
+  top: 0;
+}
+.input {
+  /*outline: 1px solid red;*/
   background-color: rgb(239,239,239);
   border-radius: 8px;
   padding: 10px 20px;
   display: inline-block;
-  border: 0;
-  width: 70%;
+  border: 10px;;
+  width: 50%;
   height: 50px;
   align-items: center;
   float: left;
   margin-top: 20px;
+  margin-bottom: 10px;
 }
-
-/*div.translator-box {
-  outline: 1px solid red;
-  display: inline;
-  float: left;
-}
-*/
 .pins, .phrase, .icon-down {
   float: left;
   display: inline-block;
@@ -88,7 +85,7 @@ input {
   width: 70%;
   height: 40px;
   align: center;
-  margin-top: -5px;
+  /*margin-top: -5px;*/
   font-size: 20px;
 }
 
@@ -110,24 +107,20 @@ input {
   margin-top: 30px;
 }
 
-/*button {
-  padding: 20px 25px;
-  border: 0;
-  border-radius: 6px;
-  /*font-weight: 600px;
-  float: left;
-  margin: 6px;
-
-}*/
 nav ul {
   display: inline-block;
   align-items: center;
   margin-right: 80px;
   margin-left: 230px;
 }
+nav {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
 nav ul li {
   display: inline-block;
-
+  bottom: 0;
 }
 button{
   border: 0;
@@ -157,10 +150,8 @@ section .img-body ul li  {
   outline: 1px solid blue;
 }
 
-
-
 main {
-  margin-top: 200px;
+  margin-top: 150px;
   display: inline-block;
   /*outline: 1px solid green;*/
   margin-right: 60px;
@@ -177,30 +168,3 @@ main {
   border-radius: 15px;
 
 }
-/*.pics {
-  margin-right: 200px;
-  margin-left: 200px;
-  outline: 1px solid blue;
-}*/
-
-
-
-
-/*
-.img-body{
-  margin-top: 100px;
-  display: inline-block;
-
-/*.pics img{
-  width: 200px;
-  height: auto;
-  float: left;
-}
-
-l
-
-.img-body {
-
-  float: left;
-}
-*/
